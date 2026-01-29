@@ -1,0 +1,1 @@
+const t="大模型配置",o="对话模型供应商",s="对话模型配置",n="模型名称",e="基本设置",c="修改密码",a="系统 AI 功能设置",d="注意：此项配置，仅用于系统的 AI 功能，而非【聊天助手】。",i={title:t,modelOfChat:o,dialogModel:s,modelName:n,basic:e,updatePwd:c,systemAIFunctionSettings:a,note:d};export{e as basic,i as default,s as dialogModel,n as modelName,o as modelOfChat,d as note,a as systemAIFunctionSettings,t as title,c as updatePwd};

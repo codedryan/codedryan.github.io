@@ -1,0 +1,1 @@
+const t="主键",o="分类名称",c="排序",s="数据状态",e="创建时间",n="创建者",a="修改时间",d="修改者",r={id:t,categoryName:o,sortNo:c,status:s,created:e,createdBy:n,modified:a,modifiedBy:d};export{o as categoryName,e as created,n as createdBy,r as default,t as id,a as modified,d as modifiedBy,c as sortNo,s as status};

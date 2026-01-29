@@ -1,0 +1,5 @@
+const e="Id",i="PackageId",o="SensitiveWord",t="WordDesc",d="Status",n="DeptId",r="TenantId",s="Created",l="CreatedBy",c="Modified",a="ModifiedBy",g="FileUrl",v={sensitiveWord:`Enter one sensitive word per line, e.g.:
+gambling
+pornography
+violence
+fraud`},u={cloudBasedAIFiltering:"CloudBasedAIFiltering",enableAIFilter:"EnableAIFilter",cloudFilteringServiceProvider:"CloudFilteringServiceProvider",cloudFilteringServiceProviderAliDesc:"Alibaba Cloud, please refer to ",cloudFilteringServiceProviderTencentDesc:"Tencent Cloud, please refer to "},W={sensitiveWord:"SensitiveWord",triggerLog:"TriggerLog",wordCloud:"WordCloud",sensitiveWordConfig:"SensitiveWordConfig",sensitiveWhiteWord:"SensitiveWhiteWord"},f={id:e,packageId:i,sensitiveWord:o,wordDesc:t,status:d,deptId:n,tenantId:r,created:s,createdBy:l,modified:c,modifiedBy:a,fileUrl:g,placeholder:v,label:u,menus:W};export{s as created,l as createdBy,f as default,n as deptId,g as fileUrl,e as id,u as label,W as menus,c as modified,a as modifiedBy,i as packageId,v as placeholder,o as sensitiveWord,d as status,r as tenantId,t as wordDesc};
